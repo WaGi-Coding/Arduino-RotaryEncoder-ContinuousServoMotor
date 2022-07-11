@@ -26,7 +26,7 @@ int servoPin = 9; // Use a Pin supporting PWM~
 
 
 
-int trimmedCenter = 1438; // Normally 1500 is center, test with which value your servo stays in place
+int trimmedCenter = 1500; // Normally 1500 is center, test with which value your servo stays in place. For me it was 1438
 int minMaxChange = 300; // min/max range eg 1438 - 300 == min, 1438 + 300 == max
 int stepSize = 10; // higher is less precise, lower is more precise
 
